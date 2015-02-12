@@ -51,6 +51,7 @@ table {
 /* Start of Custom Styles */
 .content {
     padding: 0 15px;
+    margin: 0 auto;
 }
 /* Navigation Section */
 .top-navigation {
@@ -92,6 +93,9 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 .big-button {
@@ -100,4 +104,27 @@ table {
     border-radius: 4px;
     padding: 16px 26px;
     line-height: 1.33;
+    background-color: #f15a29;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+}
+
+.introduction .content {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 100%;
+	font: inherit;
+	width: 60%;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
 }
