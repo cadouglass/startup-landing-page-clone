@@ -148,3 +148,12 @@ table {
 	font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
+.social .content {
+	text-align: center;
+}
+
+.social .icons .li {
+	border: 1px solid blue;
+	border-radius: 50%;
+}
